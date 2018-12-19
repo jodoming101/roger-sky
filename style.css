@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/roboto/Roboto-Thin.ttf');
+}
+
+@font-face {
+    font-family: 'Caviar';
+    src: url('fonts/caviar_dreams/CaviarDreams.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto_desc';
+    src: url('fonts/roboto/Roboto-Thin.ttf');
+}
+
+body {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    width: 100%;
+    background: url("img/bg_img.jpg") no-repeat;
+    padding: unset
+}
+
+#lisere {
+    background-image: url("img/lisere.jpg");
+    float: left;
+    width: 150px;
+    height: 550px;
+    border-radius: 9px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: center;
+    width: 100%;
+}
+
+#presentation {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 290%;
+    font-family: 'Caviar', sans-serif;
+    color: #999B9A;
+    margin-bottom: unset;
+}
+
+h2 {
+    color: white;
+    margin-top: 5%;
+    font-family: 'Roboto_desc', sans-serif;
+    font-size: 120%;
+}
+
+#photo {
+    padding-right:9.5%;
+}
+
+.picture {
+    box-shadow: 3px 3px 2px #011118;
+    border: 2px #011118 solid;
+    margin-top: 25%;
+    height: 40%;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bloc {
+    width: 30%;
+    margin: 3%;
+}
+
+h3 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+    font-size: 95%;
+}
+
+ul , p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 85%;
+}
